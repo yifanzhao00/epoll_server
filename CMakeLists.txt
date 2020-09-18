@@ -8,5 +8,5 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++11 -fPIC")
 
 #define compiled souce code
 aux_source_directory(. SRC_LIST)
-# produce the dynamic library
+# produce the dynamic library epoll_server
 add_library(epoll_server SHARED ${SRC_LIST})
