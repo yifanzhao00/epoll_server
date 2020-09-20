@@ -4,7 +4,7 @@
 #include <string>
 #include "noncopyable.h"
 
-#define LOG_INFO(logmegformat, ...) \
+#define LOG_INFO(logmsgformat, ...) \
     do \
     { \
         Logger& logger_single = Logger::instance(); \
@@ -14,7 +14,7 @@
         logger_single.log(buf); \
     }while (0)
 
-#define LOG_ERROR(logmegformat, ...) \
+#define LOG_ERROR(logmsgformat, ...) \
     do \
     { \
         Logger& logger_single = Logger::instance(); \
@@ -24,7 +24,7 @@
         logger_single.log(buf); \
     }while (0)
 
-#define LOG_FATAL(logmegformat, ...) \
+#define LOG_FATAL(logmsgformat, ...) \
     do \
     { \
         Logger& logger_single = Logger::instance(); \
@@ -35,7 +35,7 @@
     }while (0)
 
 #ifdef SERVERDEBUG
-#define LOG_DEBUG(logmegformat, ...) \
+#define LOG_DEBUG(logmsgformat, ...) \
     do \
     { \
         Logger& logger_single = Logger::instance(); \
@@ -45,7 +45,7 @@
         logger_single.log(buf); \
     }while (0)
 #else
-    #define LOG_DEBUG(logmegformat, ...) 
+    #define LOG_DEBUG(logmsgformat, ...) 
 #endif
 
 

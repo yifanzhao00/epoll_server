@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yifanzhao/Desktop/epoll_server/Logger.cc
+Logger.h
+/home/yifanzhao/Desktop/epoll_server/Logger.h
+iostream
+-
+
+/home/yifanzhao/Desktop/epoll_server/Logger.h
+string
+-
+noncopyable.h
+/home/yifanzhao/Desktop/epoll_server/noncopyable.h
+
+/home/yifanzhao/Desktop/epoll_server/TimeStamp.cc
+TimeStamp.h
+/home/yifanzhao/Desktop/epoll_server/TimeStamp.h
+
+/home/yifanzhao/Desktop/epoll_server/TimeStamp.h
+iostream
+-
+string
+-
+time.h
+/home/yifanzhao/Desktop/epoll_server/time.h
+
+/home/yifanzhao/Desktop/epoll_server/noncopyable.h
+

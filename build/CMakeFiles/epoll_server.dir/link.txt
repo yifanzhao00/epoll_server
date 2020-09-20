@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7 -fPIC  -g -std=c++11 -fPIC -g  -shared -Wl,-soname,libepoll_server.so -o ../lib/libepoll_server.so CMakeFiles/epoll_server.dir/Logger.o CMakeFiles/epoll_server.dir/TimeStamp.o 
