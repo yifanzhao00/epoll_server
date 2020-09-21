@@ -66,7 +66,7 @@ private:
     const int fd_;
     int events_; // interested events
     int revents_; // returned events
-    int index_;
+    int index_; // status in the epoll
 
     // event status
     static const int kNoneEvent;

@@ -11,7 +11,7 @@ class TimeStamp
 public:
     TimeStamp();
     explicit TimeStamp(int64_t timerEpoch);
-    TimeStamp now();
+    static TimeStamp now();
     std::string toString() const;
 private:
     int64_t timerEpoch_;
