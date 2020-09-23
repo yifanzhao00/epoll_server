@@ -49,6 +49,7 @@ CMakeFiles/epoll_server.dir/Poller.o: ../TimeStamp.h
 CMakeFiles/epoll_server.dir/Poller.o: ../noncopyable.h
 
 CMakeFiles/epoll_server.dir/TcpServer.o: ../TcpServer.cc
+CMakeFiles/epoll_server.dir/TcpServer.o: ../TcpServer.h
 
 CMakeFiles/epoll_server.dir/TimeStamp.o: ../TimeStamp.cc
 CMakeFiles/epoll_server.dir/TimeStamp.o: ../TimeStamp.h

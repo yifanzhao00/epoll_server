@@ -4,6 +4,8 @@
         "EPOLLIN",
         "EPOLLPOLLER",
         "Eventfd",
+        "Scockaddr",
+        "connfd",
         "epollfd",
         "evtfd"
     ],

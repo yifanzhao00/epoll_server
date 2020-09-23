@@ -16,14 +16,15 @@
 class InetAddress
 {
 public:
-    explicit InetAddress(u_int16_t port, std::string ip = "127.0.0.1");
+    explicit InetAddress(u_int16_t port = 0, std::string ip = "127.0.0.1");
     explicit InetAddress(const sockaddr_in &addr_);
 
     std::string topIp() const;
     std::string toIpPort() const;
     uint16_t toPort() const;
 
-    const sockaddr_in* getSockaddr() { return &addr_; }
+    const sockaddr_in* getSockaddr() const { return &addr_; }
+    void setScockaddr(const sockaddr_in &addr) { addr_ = addr; }
 
 private:
     sockaddr_in addr_;

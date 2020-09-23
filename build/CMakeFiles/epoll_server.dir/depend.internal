@@ -50,6 +50,7 @@ CMakeFiles/epoll_server.dir/Poller.o
  /home/yifanzhao/Desktop/epoll_server/noncopyable.h
 CMakeFiles/epoll_server.dir/TcpServer.o
  /home/yifanzhao/Desktop/epoll_server/TcpServer.cc
+ /home/yifanzhao/Desktop/epoll_server/TcpServer.h
 CMakeFiles/epoll_server.dir/TimeStamp.o
  /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc
  /home/yifanzhao/Desktop/epoll_server/TimeStamp.h
