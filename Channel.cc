@@ -116,10 +116,10 @@ void Channel::handleEventWithGuard(TimeStamp receiveTime)
 
 void Channel::update()
 {
-
+    loop_->updateChannel(this);
 }
 
 void Channel::remove()
 {
-
+    loop_->removeChannel(this);
 }

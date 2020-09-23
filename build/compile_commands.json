@@ -1,8 +1,48 @@
 [
 {
   "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/Channel.o -c /home/yifanzhao/Desktop/epoll_server/Channel.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/Channel.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/CurrentThread.o -c /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/CurrentThread.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/DefaultPoller.o -c /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/EpollPoller.o -c /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/EpollPoller.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/EventLoop.o -c /home/yifanzhao/Desktop/epoll_server/EventLoop.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/EventLoop.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/InetAddress.o -c /home/yifanzhao/Desktop/epoll_server/InetAddress.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/InetAddress.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
   "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/Logger.o -c /home/yifanzhao/Desktop/epoll_server/Logger.cc",
   "file": "/home/yifanzhao/Desktop/epoll_server/Logger.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/Poller.o -c /home/yifanzhao/Desktop/epoll_server/Poller.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/Poller.cc"
+},
+{
+  "directory": "/home/yifanzhao/Desktop/epoll_server/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Depoll_server_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/epoll_server.dir/TcpServer.o -c /home/yifanzhao/Desktop/epoll_server/TcpServer.cc",
+  "file": "/home/yifanzhao/Desktop/epoll_server/TcpServer.cc"
 },
 {
   "directory": "/home/yifanzhao/Desktop/epoll_server/build",

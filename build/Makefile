@@ -124,6 +124,96 @@ epoll_server/fast:
 .PHONY : epoll_server/fast
 
 # target to build an object file
+Channel.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Channel.o
+.PHONY : Channel.o
+
+# target to preprocess a source file
+Channel.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Channel.i
+.PHONY : Channel.i
+
+# target to generate assembly for a file
+Channel.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Channel.s
+.PHONY : Channel.s
+
+# target to build an object file
+CurrentThread.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/CurrentThread.o
+.PHONY : CurrentThread.o
+
+# target to preprocess a source file
+CurrentThread.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/CurrentThread.i
+.PHONY : CurrentThread.i
+
+# target to generate assembly for a file
+CurrentThread.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/CurrentThread.s
+.PHONY : CurrentThread.s
+
+# target to build an object file
+DefaultPoller.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/DefaultPoller.o
+.PHONY : DefaultPoller.o
+
+# target to preprocess a source file
+DefaultPoller.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/DefaultPoller.i
+.PHONY : DefaultPoller.i
+
+# target to generate assembly for a file
+DefaultPoller.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/DefaultPoller.s
+.PHONY : DefaultPoller.s
+
+# target to build an object file
+EpollPoller.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/EpollPoller.o
+.PHONY : EpollPoller.o
+
+# target to preprocess a source file
+EpollPoller.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/EpollPoller.i
+.PHONY : EpollPoller.i
+
+# target to generate assembly for a file
+EpollPoller.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/EpollPoller.s
+.PHONY : EpollPoller.s
+
+# target to build an object file
+EventLoop.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/EventLoop.o
+.PHONY : EventLoop.o
+
+# target to preprocess a source file
+EventLoop.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/EventLoop.i
+.PHONY : EventLoop.i
+
+# target to generate assembly for a file
+EventLoop.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/EventLoop.s
+.PHONY : EventLoop.s
+
+# target to build an object file
+InetAddress.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/InetAddress.o
+.PHONY : InetAddress.o
+
+# target to preprocess a source file
+InetAddress.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/InetAddress.i
+.PHONY : InetAddress.i
+
+# target to generate assembly for a file
+InetAddress.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/InetAddress.s
+.PHONY : InetAddress.s
+
+# target to build an object file
 Logger.o:
 	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Logger.o
 .PHONY : Logger.o
@@ -137,6 +227,36 @@ Logger.i:
 Logger.s:
 	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Logger.s
 .PHONY : Logger.s
+
+# target to build an object file
+Poller.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Poller.o
+.PHONY : Poller.o
+
+# target to preprocess a source file
+Poller.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Poller.i
+.PHONY : Poller.i
+
+# target to generate assembly for a file
+Poller.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/Poller.s
+.PHONY : Poller.s
+
+# target to build an object file
+TcpServer.o:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/TcpServer.o
+.PHONY : TcpServer.o
+
+# target to preprocess a source file
+TcpServer.i:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/TcpServer.i
+.PHONY : TcpServer.i
+
+# target to generate assembly for a file
+TcpServer.s:
+	$(MAKE) -f CMakeFiles/epoll_server.dir/build.make CMakeFiles/epoll_server.dir/TcpServer.s
+.PHONY : TcpServer.s
 
 # target to build an object file
 TimeStamp.o:
@@ -162,9 +282,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... epoll_server"
 	@echo "... edit_cache"
+	@echo "... Channel.o"
+	@echo "... Channel.i"
+	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
+	@echo "... DefaultPoller.o"
+	@echo "... DefaultPoller.i"
+	@echo "... DefaultPoller.s"
+	@echo "... EpollPoller.o"
+	@echo "... EpollPoller.i"
+	@echo "... EpollPoller.s"
+	@echo "... EventLoop.o"
+	@echo "... EventLoop.i"
+	@echo "... EventLoop.s"
+	@echo "... InetAddress.o"
+	@echo "... InetAddress.i"
+	@echo "... InetAddress.s"
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
+	@echo "... Poller.o"
+	@echo "... Poller.i"
+	@echo "... Poller.s"
+	@echo "... TcpServer.o"
+	@echo "... TcpServer.i"
+	@echo "... TcpServer.s"
 	@echo "... TimeStamp.o"
 	@echo "... TimeStamp.i"
 	@echo "... TimeStamp.s"

@@ -3,6 +3,11 @@
     "cSpell.words": [
         "EPOLLIN",
         "EPOLLPOLLER",
-        "epollfd"
-    ]
+        "Eventfd",
+        "epollfd",
+        "evtfd"
+    ],
+    "files.associations": {
+        "atomic": "cpp"
+    }
 }
