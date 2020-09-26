@@ -28,6 +28,8 @@ public:
     const std::string name() const { return name_; }
 
     void start(const ThreadInitCallback &cb = ThreadInitCallback());
+
+    void setThreadNum(int numThreads) { numThreads_ = numThreads; }
 private:
     EventLoop* baseLoop_;
     std::string name_;

@@ -93,8 +93,21 @@ CMakeFiles/epoll_server.dir/TcpConnection.o: ../TcpConnection.h
 CMakeFiles/epoll_server.dir/TcpConnection.o: ../TimeStamp.h
 CMakeFiles/epoll_server.dir/TcpConnection.o: ../noncopyable.h
 
+CMakeFiles/epoll_server.dir/TcpServer.o: ../Acceptor.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../Buffer.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../Callback.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../Channel.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../CurrentThread.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../EventLoop.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../EventLoopThreadPool.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../InetAddress.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../Logger.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../Socket.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../TcpConnection.h
 CMakeFiles/epoll_server.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/epoll_server.dir/TcpServer.o: ../TcpServer.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../TimeStamp.h
+CMakeFiles/epoll_server.dir/TcpServer.o: ../noncopyable.h
 
 CMakeFiles/epoll_server.dir/Thread.o: ../CurrentThread.h
 CMakeFiles/epoll_server.dir/Thread.o: ../Thread.cc
