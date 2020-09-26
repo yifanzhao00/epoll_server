@@ -67,6 +67,7 @@ CMakeFiles/epoll_server.dir/InetAddress.o
 CMakeFiles/epoll_server.dir/Logger.o
  /home/yifanzhao/Desktop/epoll_server/Logger.cc
  /home/yifanzhao/Desktop/epoll_server/Logger.h
+ /home/yifanzhao/Desktop/epoll_server/TimeStamp.h
  /home/yifanzhao/Desktop/epoll_server/noncopyable.h
 CMakeFiles/epoll_server.dir/Poller.o
  /home/yifanzhao/Desktop/epoll_server/Channel.h

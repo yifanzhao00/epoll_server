@@ -201,14 +201,14 @@ void TcpConnection::shutdown()
 {
     if (state_ == kConnected) {
         setState(kDisconnected);
-        loop_->runInLoop(std::bind(&TcpConnection::shutdownInLoop, this));
+        loop_->runInLoop(std::bind(&TcpConnection::shutdownInLoop, this)); 
     }
 }
 
 void TcpConnection::shutdownInLoop()
 {
     if (!channel_->isWriting()) {
-        socket_->shutdownWrite();
+        socket_->shutdownWrite();  //EPOLLHUP
     }
 }
 

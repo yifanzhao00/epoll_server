@@ -66,6 +66,7 @@ CMakeFiles/epoll_server.dir/InetAddress.o: ../InetAddress.h
 
 CMakeFiles/epoll_server.dir/Logger.o: ../Logger.cc
 CMakeFiles/epoll_server.dir/Logger.o: ../Logger.h
+CMakeFiles/epoll_server.dir/Logger.o: ../TimeStamp.h
 CMakeFiles/epoll_server.dir/Logger.o: ../noncopyable.h
 
 CMakeFiles/epoll_server.dir/Poller.o: ../Channel.h

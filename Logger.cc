@@ -1,4 +1,6 @@
 #include "Logger.h"
+#include "TimeStamp.h"
+
 #include <iostream>
 
 Logger& Logger::instance()
@@ -31,4 +33,6 @@ void Logger::log(std::string msg)
     default:
         break; 
     }
+
+    std::cout << TimeStamp::now().toString() << " : " << msg << std::endl;
 }

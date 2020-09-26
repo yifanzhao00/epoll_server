@@ -60,15 +60,15 @@ include CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Acceptor.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Acceptor.o: ../Acceptor.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/epoll_server.dir/Acceptor.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Acceptor.o -c /home/yifanzhao/Desktop/epoll_server/Acceptor.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Acceptor.o -c /home/yifanzhao/Desktop/epoll_server/Acceptor.cc
 
 CMakeFiles/epoll_server.dir/Acceptor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Acceptor.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Acceptor.cc > CMakeFiles/epoll_server.dir/Acceptor.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Acceptor.cc > CMakeFiles/epoll_server.dir/Acceptor.i
 
 CMakeFiles/epoll_server.dir/Acceptor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Acceptor.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Acceptor.cc -o CMakeFiles/epoll_server.dir/Acceptor.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Acceptor.cc -o CMakeFiles/epoll_server.dir/Acceptor.s
 
 CMakeFiles/epoll_server.dir/Acceptor.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/epoll_server.dir/Acceptor.o.provides.build: CMakeFiles/epoll_server.d
 CMakeFiles/epoll_server.dir/Buffer.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Buffer.o: ../Buffer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/epoll_server.dir/Buffer.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Buffer.o -c /home/yifanzhao/Desktop/epoll_server/Buffer.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Buffer.o -c /home/yifanzhao/Desktop/epoll_server/Buffer.cc
 
 CMakeFiles/epoll_server.dir/Buffer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Buffer.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Buffer.cc > CMakeFiles/epoll_server.dir/Buffer.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Buffer.cc > CMakeFiles/epoll_server.dir/Buffer.i
 
 CMakeFiles/epoll_server.dir/Buffer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Buffer.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Buffer.cc -o CMakeFiles/epoll_server.dir/Buffer.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Buffer.cc -o CMakeFiles/epoll_server.dir/Buffer.s
 
 CMakeFiles/epoll_server.dir/Buffer.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/epoll_server.dir/Buffer.o.provides.build: CMakeFiles/epoll_server.dir
 CMakeFiles/epoll_server.dir/Channel.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Channel.o: ../Channel.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/epoll_server.dir/Channel.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Channel.o -c /home/yifanzhao/Desktop/epoll_server/Channel.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Channel.o -c /home/yifanzhao/Desktop/epoll_server/Channel.cc
 
 CMakeFiles/epoll_server.dir/Channel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Channel.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Channel.cc > CMakeFiles/epoll_server.dir/Channel.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Channel.cc > CMakeFiles/epoll_server.dir/Channel.i
 
 CMakeFiles/epoll_server.dir/Channel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Channel.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Channel.cc -o CMakeFiles/epoll_server.dir/Channel.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Channel.cc -o CMakeFiles/epoll_server.dir/Channel.s
 
 CMakeFiles/epoll_server.dir/Channel.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/epoll_server.dir/Channel.o.provides.build: CMakeFiles/epoll_server.di
 CMakeFiles/epoll_server.dir/CurrentThread.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/CurrentThread.o: ../CurrentThread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/epoll_server.dir/CurrentThread.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/CurrentThread.o -c /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/CurrentThread.o -c /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc
 
 CMakeFiles/epoll_server.dir/CurrentThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/CurrentThread.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc > CMakeFiles/epoll_server.dir/CurrentThread.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc > CMakeFiles/epoll_server.dir/CurrentThread.i
 
 CMakeFiles/epoll_server.dir/CurrentThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/CurrentThread.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc -o CMakeFiles/epoll_server.dir/CurrentThread.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/CurrentThread.cc -o CMakeFiles/epoll_server.dir/CurrentThread.s
 
 CMakeFiles/epoll_server.dir/CurrentThread.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/epoll_server.dir/CurrentThread.o.provides.build: CMakeFiles/epoll_ser
 CMakeFiles/epoll_server.dir/DefaultPoller.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/DefaultPoller.o: ../DefaultPoller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/epoll_server.dir/DefaultPoller.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/DefaultPoller.o -c /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/DefaultPoller.o -c /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc
 
 CMakeFiles/epoll_server.dir/DefaultPoller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/DefaultPoller.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc > CMakeFiles/epoll_server.dir/DefaultPoller.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc > CMakeFiles/epoll_server.dir/DefaultPoller.i
 
 CMakeFiles/epoll_server.dir/DefaultPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/DefaultPoller.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc -o CMakeFiles/epoll_server.dir/DefaultPoller.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/DefaultPoller.cc -o CMakeFiles/epoll_server.dir/DefaultPoller.s
 
 CMakeFiles/epoll_server.dir/DefaultPoller.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/epoll_server.dir/DefaultPoller.o.provides.build: CMakeFiles/epoll_ser
 CMakeFiles/epoll_server.dir/EpollPoller.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/EpollPoller.o: ../EpollPoller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/epoll_server.dir/EpollPoller.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EpollPoller.o -c /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EpollPoller.o -c /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc
 
 CMakeFiles/epoll_server.dir/EpollPoller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/EpollPoller.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc > CMakeFiles/epoll_server.dir/EpollPoller.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc > CMakeFiles/epoll_server.dir/EpollPoller.i
 
 CMakeFiles/epoll_server.dir/EpollPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/EpollPoller.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc -o CMakeFiles/epoll_server.dir/EpollPoller.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EpollPoller.cc -o CMakeFiles/epoll_server.dir/EpollPoller.s
 
 CMakeFiles/epoll_server.dir/EpollPoller.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/epoll_server.dir/EpollPoller.o.provides.build: CMakeFiles/epoll_serve
 CMakeFiles/epoll_server.dir/EventLoop.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/EventLoop.o: ../EventLoop.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/epoll_server.dir/EventLoop.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EventLoop.o -c /home/yifanzhao/Desktop/epoll_server/EventLoop.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EventLoop.o -c /home/yifanzhao/Desktop/epoll_server/EventLoop.cc
 
 CMakeFiles/epoll_server.dir/EventLoop.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/EventLoop.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EventLoop.cc > CMakeFiles/epoll_server.dir/EventLoop.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EventLoop.cc > CMakeFiles/epoll_server.dir/EventLoop.i
 
 CMakeFiles/epoll_server.dir/EventLoop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/EventLoop.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EventLoop.cc -o CMakeFiles/epoll_server.dir/EventLoop.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EventLoop.cc -o CMakeFiles/epoll_server.dir/EventLoop.s
 
 CMakeFiles/epoll_server.dir/EventLoop.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/epoll_server.dir/EventLoop.o.provides.build: CMakeFiles/epoll_server.
 CMakeFiles/epoll_server.dir/EventLoopThreaPool.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/EventLoopThreaPool.o: ../EventLoopThreaPool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/epoll_server.dir/EventLoopThreaPool.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EventLoopThreaPool.o -c /home/yifanzhao/Desktop/epoll_server/EventLoopThreaPool.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EventLoopThreaPool.o -c /home/yifanzhao/Desktop/epoll_server/EventLoopThreaPool.cc
 
 CMakeFiles/epoll_server.dir/EventLoopThreaPool.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/EventLoopThreaPool.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EventLoopThreaPool.cc > CMakeFiles/epoll_server.dir/EventLoopThreaPool.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EventLoopThreaPool.cc > CMakeFiles/epoll_server.dir/EventLoopThreaPool.i
 
 CMakeFiles/epoll_server.dir/EventLoopThreaPool.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/EventLoopThreaPool.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EventLoopThreaPool.cc -o CMakeFiles/epoll_server.dir/EventLoopThreaPool.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EventLoopThreaPool.cc -o CMakeFiles/epoll_server.dir/EventLoopThreaPool.s
 
 CMakeFiles/epoll_server.dir/EventLoopThreaPool.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/epoll_server.dir/EventLoopThreaPool.o.provides.build: CMakeFiles/epol
 CMakeFiles/epoll_server.dir/EventLoopThread.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/EventLoopThread.o: ../EventLoopThread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/epoll_server.dir/EventLoopThread.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EventLoopThread.o -c /home/yifanzhao/Desktop/epoll_server/EventLoopThread.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/EventLoopThread.o -c /home/yifanzhao/Desktop/epoll_server/EventLoopThread.cc
 
 CMakeFiles/epoll_server.dir/EventLoopThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/EventLoopThread.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EventLoopThread.cc > CMakeFiles/epoll_server.dir/EventLoopThread.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/EventLoopThread.cc > CMakeFiles/epoll_server.dir/EventLoopThread.i
 
 CMakeFiles/epoll_server.dir/EventLoopThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/EventLoopThread.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EventLoopThread.cc -o CMakeFiles/epoll_server.dir/EventLoopThread.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/EventLoopThread.cc -o CMakeFiles/epoll_server.dir/EventLoopThread.s
 
 CMakeFiles/epoll_server.dir/EventLoopThread.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/epoll_server.dir/EventLoopThread.o.provides.build: CMakeFiles/epoll_s
 CMakeFiles/epoll_server.dir/InetAddress.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/InetAddress.o: ../InetAddress.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/epoll_server.dir/InetAddress.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/InetAddress.o -c /home/yifanzhao/Desktop/epoll_server/InetAddress.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/InetAddress.o -c /home/yifanzhao/Desktop/epoll_server/InetAddress.cc
 
 CMakeFiles/epoll_server.dir/InetAddress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/InetAddress.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/InetAddress.cc > CMakeFiles/epoll_server.dir/InetAddress.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/InetAddress.cc > CMakeFiles/epoll_server.dir/InetAddress.i
 
 CMakeFiles/epoll_server.dir/InetAddress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/InetAddress.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/InetAddress.cc -o CMakeFiles/epoll_server.dir/InetAddress.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/InetAddress.cc -o CMakeFiles/epoll_server.dir/InetAddress.s
 
 CMakeFiles/epoll_server.dir/InetAddress.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/epoll_server.dir/InetAddress.o.provides.build: CMakeFiles/epoll_serve
 CMakeFiles/epoll_server.dir/Logger.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Logger.o: ../Logger.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/epoll_server.dir/Logger.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Logger.o -c /home/yifanzhao/Desktop/epoll_server/Logger.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Logger.o -c /home/yifanzhao/Desktop/epoll_server/Logger.cc
 
 CMakeFiles/epoll_server.dir/Logger.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Logger.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Logger.cc > CMakeFiles/epoll_server.dir/Logger.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Logger.cc > CMakeFiles/epoll_server.dir/Logger.i
 
 CMakeFiles/epoll_server.dir/Logger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Logger.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Logger.cc -o CMakeFiles/epoll_server.dir/Logger.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Logger.cc -o CMakeFiles/epoll_server.dir/Logger.s
 
 CMakeFiles/epoll_server.dir/Logger.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/epoll_server.dir/Logger.o.provides.build: CMakeFiles/epoll_server.dir
 CMakeFiles/epoll_server.dir/Poller.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Poller.o: ../Poller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/epoll_server.dir/Poller.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Poller.o -c /home/yifanzhao/Desktop/epoll_server/Poller.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Poller.o -c /home/yifanzhao/Desktop/epoll_server/Poller.cc
 
 CMakeFiles/epoll_server.dir/Poller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Poller.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Poller.cc > CMakeFiles/epoll_server.dir/Poller.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Poller.cc > CMakeFiles/epoll_server.dir/Poller.i
 
 CMakeFiles/epoll_server.dir/Poller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Poller.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Poller.cc -o CMakeFiles/epoll_server.dir/Poller.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Poller.cc -o CMakeFiles/epoll_server.dir/Poller.s
 
 CMakeFiles/epoll_server.dir/Poller.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/epoll_server.dir/Poller.o.provides.build: CMakeFiles/epoll_server.dir
 CMakeFiles/epoll_server.dir/Socket.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Socket.o: ../Socket.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/epoll_server.dir/Socket.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Socket.o -c /home/yifanzhao/Desktop/epoll_server/Socket.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Socket.o -c /home/yifanzhao/Desktop/epoll_server/Socket.cc
 
 CMakeFiles/epoll_server.dir/Socket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Socket.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Socket.cc > CMakeFiles/epoll_server.dir/Socket.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Socket.cc > CMakeFiles/epoll_server.dir/Socket.i
 
 CMakeFiles/epoll_server.dir/Socket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Socket.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Socket.cc -o CMakeFiles/epoll_server.dir/Socket.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Socket.cc -o CMakeFiles/epoll_server.dir/Socket.s
 
 CMakeFiles/epoll_server.dir/Socket.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/epoll_server.dir/Socket.o.provides.build: CMakeFiles/epoll_server.dir
 CMakeFiles/epoll_server.dir/TcpConnection.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/TcpConnection.o: ../TcpConnection.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/epoll_server.dir/TcpConnection.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/TcpConnection.o -c /home/yifanzhao/Desktop/epoll_server/TcpConnection.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/TcpConnection.o -c /home/yifanzhao/Desktop/epoll_server/TcpConnection.cc
 
 CMakeFiles/epoll_server.dir/TcpConnection.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/TcpConnection.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/TcpConnection.cc > CMakeFiles/epoll_server.dir/TcpConnection.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/TcpConnection.cc > CMakeFiles/epoll_server.dir/TcpConnection.i
 
 CMakeFiles/epoll_server.dir/TcpConnection.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/TcpConnection.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/TcpConnection.cc -o CMakeFiles/epoll_server.dir/TcpConnection.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/TcpConnection.cc -o CMakeFiles/epoll_server.dir/TcpConnection.s
 
 CMakeFiles/epoll_server.dir/TcpConnection.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/epoll_server.dir/TcpConnection.o.provides.build: CMakeFiles/epoll_ser
 CMakeFiles/epoll_server.dir/TcpServer.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/TcpServer.o: ../TcpServer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/epoll_server.dir/TcpServer.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/TcpServer.o -c /home/yifanzhao/Desktop/epoll_server/TcpServer.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/TcpServer.o -c /home/yifanzhao/Desktop/epoll_server/TcpServer.cc
 
 CMakeFiles/epoll_server.dir/TcpServer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/TcpServer.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/TcpServer.cc > CMakeFiles/epoll_server.dir/TcpServer.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/TcpServer.cc > CMakeFiles/epoll_server.dir/TcpServer.i
 
 CMakeFiles/epoll_server.dir/TcpServer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/TcpServer.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/TcpServer.cc -o CMakeFiles/epoll_server.dir/TcpServer.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/TcpServer.cc -o CMakeFiles/epoll_server.dir/TcpServer.s
 
 CMakeFiles/epoll_server.dir/TcpServer.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/epoll_server.dir/TcpServer.o.provides.build: CMakeFiles/epoll_server.
 CMakeFiles/epoll_server.dir/Thread.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/Thread.o: ../Thread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/epoll_server.dir/Thread.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Thread.o -c /home/yifanzhao/Desktop/epoll_server/Thread.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/Thread.o -c /home/yifanzhao/Desktop/epoll_server/Thread.cc
 
 CMakeFiles/epoll_server.dir/Thread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/Thread.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Thread.cc > CMakeFiles/epoll_server.dir/Thread.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/Thread.cc > CMakeFiles/epoll_server.dir/Thread.i
 
 CMakeFiles/epoll_server.dir/Thread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/Thread.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Thread.cc -o CMakeFiles/epoll_server.dir/Thread.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/Thread.cc -o CMakeFiles/epoll_server.dir/Thread.s
 
 CMakeFiles/epoll_server.dir/Thread.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/epoll_server.dir/Thread.o.provides.build: CMakeFiles/epoll_server.dir
 CMakeFiles/epoll_server.dir/TimeStamp.o: CMakeFiles/epoll_server.dir/flags.make
 CMakeFiles/epoll_server.dir/TimeStamp.o: ../TimeStamp.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yifanzhao/Desktop/epoll_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/epoll_server.dir/TimeStamp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/TimeStamp.o -c /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epoll_server.dir/TimeStamp.o -c /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc
 
 CMakeFiles/epoll_server.dir/TimeStamp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epoll_server.dir/TimeStamp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc > CMakeFiles/epoll_server.dir/TimeStamp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc > CMakeFiles/epoll_server.dir/TimeStamp.i
 
 CMakeFiles/epoll_server.dir/TimeStamp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epoll_server.dir/TimeStamp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc -o CMakeFiles/epoll_server.dir/TimeStamp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yifanzhao/Desktop/epoll_server/TimeStamp.cc -o CMakeFiles/epoll_server.dir/TimeStamp.s
 
 CMakeFiles/epoll_server.dir/TimeStamp.o.requires:
 
